@@ -1,0 +1,11 @@
+terraform init
+terraform plan
+terraform apply
+terraform plan -var-file=filename.tfvars (to pass variable file)
+terraform apply -auto-approve
+terraform fmt
+terraform workspace new <workspacename>      #Create a new workspace
+terraform workspace delete <workspacename>   Delete a workspace
+terraform workspace list  <workspacename>    List Workspaces
+terraform workspace select  <workspacename>  Select a workspace
+terraform workspace show   <workspacename>   Show the name of the current workspace
